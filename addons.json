@@ -1,0 +1,11 @@
+{
+  "Addons": {
+             {
+              "Identifier": "WEBP_Converter",
+              "Type": "Compatibility", 
+              "Version": 1.0, 
+              "Description": "Convert .WEBP files to conventional image types",
+              "Author": "Nginearing"
+             }
+            }
+}
