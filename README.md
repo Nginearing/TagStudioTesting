@@ -1,8 +1,7 @@
 # TagStudio: A User-Focused Document Management System
 
-<p align="center">
-  <img width="60%" src="docs/assets/github_header.png">
-</p>
+![image](https://github.com/user-attachments/assets/69d8ab5d-ddf2-4963-b800-abad6986aecf)
+
 
 TagStudio is a photo & file organization application with an underlying system that focuses on giving freedom and flexibility to the user. No proprietary programs or formats, no sea of sidecar files, and no complete upheaval of your filesystem structure. **Read the documentation and more at [docs.tagstud.io](https://docs.tagstud.io)!**
 
@@ -20,11 +19,8 @@ TagStudio is a photo & file organization application with an underlying system t
 > - Ask you to recreate your tags or libraries after new releases. It's our highest priority to ensure that your data safely and smoothly transfers over to newer versions.
 > - Cause you to suddenly be able to recall your 10 trillion downloaded images that you probably haven't even seen firsthand before. You're in control here, and even tools out there that use machine learning still needed to be verified by human eyes before being deemed accurate.
 
-<figure align="center">
-  <img width="80%" src="docs/assets/screenshot.jpg" alt="TagStudio Screenshot" align="center">
-
-  <figcaption><i>TagStudio Alpha v9.1.0 running on Windows 10.</i></figcaption>
-</figure>
+![image](https://github.com/user-attachments/assets/7eca3ca3-5972-48e0-bb83-4d3917adf4f7)
+<figcaption><i>TagStudio Alpha v9.1.0 running on Windows 10.</i></figcaption>
 
 ## Contents
 
