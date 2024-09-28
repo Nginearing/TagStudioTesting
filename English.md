@@ -90,7 +90,7 @@ Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tr
 
 
 
-### <ins>Read</ins> this page in <ins>other</ins> languages
+## <ins>Read</ins> this page in <ins>other</ins> languages
 <details>
       <summary><ins>Spanish</ins></summary>
     </details>
