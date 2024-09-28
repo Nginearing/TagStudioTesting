@@ -1,15 +1,24 @@
-<b> Read this in another language: &nbsp;   </b>
-🇪🇦
+<b><p align="center">Read in other languages&emsp13;</p></b> 
+<i><p align="center"></i>
+Español
 |
-🇩🇰
-|
-[🇩🇪](https://github.com/Nginearing/TagStudioTesting/blob/main/Danish.md)
-|
-🇵🇹
-|
-🇧🇷
-|
-🇫🇷
+[Deutsch](https://github.com/Nginearing/TagStudioTesting/blob/main/Danish.md "Danish")
+</p>
+
+<table>
+    <td>Read in other languages:</td>
+    <td>🇪🇦</td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/Danish.md"><h3>🇩🇰</h3></a></td>
+    <td>🇩🇪</td>
+    <td>🇵🇹</td>
+    <td>🇧🇷</td>
+    <td>🇫🇷</td>
+    <td>🇳🇱</td>
+    <td>🇮🇪</td>
+    <td>🇳🇴</td>
+    <td>🇸🇪</td>
+    <td>🇨🇳</td>
+</table>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut justo in lacus semper elementum. Aenean sagittis, arcu ac vulputate rutrum, risus justo eleifend justo, id lobortis dui lectus nec quam. In iaculis urna ac lacus vehicula elementum. Duis egestas a urna eu feugiat. Pellentesque dignissim tellus vel convallis blandit. Phasellus convallis orci nec orci condimentum, a condimentum arcu mollis. Nulla tortor tortor, tempus quis ultricies vulputate, sodales sit amet ligula. Nullam ut sollicitudin augue. Ut tincidunt pretium elit, ac imperdiet eros posuere et. Suspendisse potenti. Vivamus et urna lacinia, venenatis enim hendrerit, consectetur ipsum. Pellentesque iaculis vitae libero sit amet pulvinar. Vivamus neque mi, laoreet a lectus nec, dapibus aliquam dui. Etiam sed eleifend metus, a pretium erat.
 
@@ -31,7 +40,6 @@ Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tr
 </details>
 
 <table>
-
   <tr>
     <td>🇪🇦</td>
     <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/Danish.md">🇩🇰</a></td>
