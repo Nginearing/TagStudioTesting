@@ -1,12 +1,13 @@
-  <p id="WelcomeHeader">Welcome to the TagStudio Documentation</p>
+<div class="content-container">
+    <p>
+        <span class="text-content english">English text</span>
+        <span class="text-content french">French text</span>
+        <span class="text-content spanish">Spanish text</span>
+    </p>
+</div>
 <div class="button-container">
-    <a href="#" onclick="changeText('English text')" onclick="" id="button-en">English</a>
+    <a href="#" id="button-en">English</a>
     <a href="#" id="button-fr">French</a>
     <a href="#" id="button-es">Spanish</a>
-  <script>
-      function changeText(newText) {
-        const textContentElement = document.getElementById('WelcomeHeader');
-        textContentElement.textContent = newText;
-      }
-  </script>
 </div>
+<link rel="stylesheet" href="https://raw.githubusercontent.com/Nginearing/TagStudioTesting/refs/heads/main/github.css">
