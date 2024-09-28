@@ -1,0 +1,13 @@
+.text-content {
+    display: none;
+}
+
+.text-content.active {
+    display: block;
+}
+
+#button-en.active + .text-content.english,
+#button-fr.active + .text-content.french,
+#button-es.active + .text-content.spanish {
+    display: block;
+}
