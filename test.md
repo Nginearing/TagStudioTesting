@@ -5,7 +5,7 @@
     <a href="#" id="button-es">Spanish</a>
   <script>
       function changeText(newText) {
-        const textContentElement = document.getElementById('text-content');
+        const textContentElement = document.getElementById('WelcomeHeader');
         textContentElement.textContent = newText;
       }
   </script>
