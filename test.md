@@ -1,13 +1,8 @@
 <div class="content-container">
-    <p>
-        <span class="text-content english">English text</span>
-        <span class="text-content french">French text</span>
-        <span class="text-content spanish">Spanish text</span>
-    </p>
+    <p id="text-content">This is the default text.</p>
 </div>
 <div class="button-container">
-    <a href="#" id="button-en">English</a>
-    <a href="#" id="button-fr">French</a>
-    <a href="#" id="button-es">Spanish</a>
+    <a href="#" onclick="document.getElementById('text-content').textContent = 'English text';">English</a>
+    <a href="#" onclick="document.getElementById('text-content').textContent = 'French text';">French</a>
+    <a href="#" onclick="document.getElementById('text-content').textContent = 'Spanish text';">Spanish</a>
 </div>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/Nginearing/TagStudioTesting/refs/heads/main/github.css">
