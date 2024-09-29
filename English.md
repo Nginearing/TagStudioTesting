@@ -1,15 +1,15 @@
 <b><p align="center">Read in other languages:</p></b> 
-<i><p align="right"></i>
-<table align="right">
+<i><p ></i>
+<table>
     <tr>
-    <td>🌐</td>
+    <th>🌐</td>
     <td>🌐</td>
     <td>🇧🇷</td>
     </tr>
     <tr>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md"><h6>Español</h6></a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md"><h6>Deutsch</h6></a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md"><h6>Português Brasileiro</h6></a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md">Español</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md">Deutsch</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md">Português Brasileiro</a></td>
     </tr>
 
 </table>
