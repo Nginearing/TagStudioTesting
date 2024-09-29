@@ -33,18 +33,36 @@ Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tr
       <summary>🇩🇰 Dansk</summary>
 </details>
 
-<table>
-  <tr>
-    <td>🇪🇦</td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/Danish.md">🇩🇰</a></td>
-    <td>🇩🇪</td>
-    <td>🇵🇹</td>
-    <td>🇧🇷</td>
-    <td>🇫🇷</td>
-    <td>🇳🇱</td>
-    <td>🇮🇪</td>
-    <td>🇳🇴</td>
-    <td>🇸🇪</td>
-    <td>🇨🇳</td>
-  </tr>
+<b><p align="center">Read in other languages:</p></b> 
+<i><p align="center"></i>
+<table align="center">
+    <td><details>
+      <summary>Español</summary>
+    </details></td>
+        <td><details>
+      <summary>Deutsch</summary>
+    </details></td>
+        <td><details>
+      <summary>Português Brasileiro</summary>
+    </details></td>
+        <td><details>
+      <summary>Français</summary>
+    </details></td>
+        <td><details>
+      <summary>Nederlands</summary>
+    </details></td>
+        <td><details>
+      <summary>Gaeilge</summary>
+    </details></td>
+ <td><details>
+      <summary>Norsk Bokmål</summary>
+    </details></td>
+ <td><details>
+      <summary>Svenska</summary>
+    </details></td>
+ <td><details>
+      <summary>普通话</summary>
+    </details></td>
 </table>
+</p>
+<br>
