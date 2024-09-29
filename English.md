@@ -31,7 +31,7 @@ Fusce in est nec dolor ullamcorper tempor. Morbi lobortis libero a ex placerat, 
 Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tristique purus id lacus sollicitudin malesuada. Donec eu fermentum lectus. Ut eleifend lorem eget justo faucibus, non venenatis mi consequat. Aenean nec pretium risus. Sed sem dui, pharetra ac lorem vestibulum, vestibulum molestie turpis. Sed maximus vulputate pretium. Integer ut velit non lacus congue lacinia. Mauris egestas libero sit amet massa scelerisque, id molestie tortor commodo. Vestibulum sapien libero, venenatis et elementum ac, aliquet vel ex. Pellentesque pellentesque, urna eu aliquam mollis, tellus mauris faucibus nulla, eu placerat nunc neque quis ex. Donec rutrum pulvinar velit non pretium.
 
 
-## <ins>Read</ins> this page in <ins>other</ins> languages
+## Read this page in other languages
 <details>
       <summary>🇪🇦</summary>
     </details>
