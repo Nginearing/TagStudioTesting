@@ -10,10 +10,9 @@
 | <b>🇧🇷 [Português Brasileiro](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md)</b> | <b>🇮🇪 [Gaeilge](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_ga.md)</b> |
 | <b>🇸🇪 [Svenska](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_sv.md)</b> | <b>🇳🇴 [Norsk Bokmål](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nb-NO.md)</b> |
 | 🇨🇳 [普通话](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_zh-CN) | ![Frame 1(11)](https://github.com/user-attachments/assets/f9baa960-28ca-4d1f-ab8d-b621ba8eb7d1) [toki pona](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_tok.md) |
-<br>
 </div>
 </details>
-
+<br>
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut justo in lacus semper elementum. Aenean sagittis, arcu ac vulputate rutrum, risus justo eleifend justo, id lobortis dui lectus nec quam. In iaculis urna ac lacus vehicula elementum. Duis egestas a urna eu feugiat. Pellentesque dignissim tellus vel convallis blandit. Phasellus convallis orci nec orci condimentum, a condimentum arcu mollis. Nulla tortor tortor, tempus quis ultricies vulputate, sodales sit amet ligula. Nullam ut sollicitudin augue. Ut tincidunt pretium elit, ac imperdiet eros posuere et. Suspendisse potenti. Vivamus et urna lacinia, venenatis enim hendrerit, consectetur ipsum. Pellentesque iaculis vitae libero sit amet pulvinar. Vivamus neque mi, laoreet a lectus nec, dapibus aliquam dui. Etiam sed eleifend metus, a pretium erat.
