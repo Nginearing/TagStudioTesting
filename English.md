@@ -1,17 +1,22 @@
 <b><p align="center">Read in other languages:</p></b> 
-<i><p align="center"></i>
-<table align="center">
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md">Español</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md">Deutsch</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md">🇧🇷 Português Brasileiro</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_fr.md">Français</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nl.md">Nederlands</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_ga.md">🇮🇪 Gaeilge</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nb.md">🇳🇴 Norsk Bokmål</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_sv.md">🇸🇪 Svenska</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_zh-cn">🇨🇳 普通话</a></td>
+<i><p align="right"></i>
+<table align="right">
+    <tr>
+    <td>🌐</td>
+    <td>🌐</td>
+    <td>🇧🇷</td>
+    </tr>
+    <tr>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md"><h6>Español</h6></a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md"><h6>Deutsch</h6></a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md"><h6>Português Brasileiro</h6></a></td>
+    </tr>
+
 </table>
 </p>
+<br>
+<br>
+<br>
 <br>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut justo in lacus semper elementum. Aenean sagittis, arcu ac vulputate rutrum, risus justo eleifend justo, id lobortis dui lectus nec quam. In iaculis urna ac lacus vehicula elementum. Duis egestas a urna eu feugiat. Pellentesque dignissim tellus vel convallis blandit. Phasellus convallis orci nec orci condimentum, a condimentum arcu mollis. Nulla tortor tortor, tempus quis ultricies vulputate, sodales sit amet ligula. Nullam ut sollicitudin augue. Ut tincidunt pretium elit, ac imperdiet eros posuere et. Suspendisse potenti. Vivamus et urna lacinia, venenatis enim hendrerit, consectetur ipsum. Pellentesque iaculis vitae libero sit amet pulvinar. Vivamus neque mi, laoreet a lectus nec, dapibus aliquam dui. Etiam sed eleifend metus, a pretium erat.
@@ -24,7 +29,21 @@ Fusce in est nec dolor ullamcorper tempor. Morbi lobortis libero a ex placerat, 
 
 Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tristique purus id lacus sollicitudin malesuada. Donec eu fermentum lectus. Ut eleifend lorem eget justo faucibus, non venenatis mi consequat. Aenean nec pretium risus. Sed sem dui, pharetra ac lorem vestibulum, vestibulum molestie turpis. Sed maximus vulputate pretium. Integer ut velit non lacus congue lacinia. Mauris egestas libero sit amet massa scelerisque, id molestie tortor commodo. Vestibulum sapien libero, venenatis et elementum ac, aliquet vel ex. Pellentesque pellentesque, urna eu aliquam mollis, tellus mauris faucibus nulla, eu placerat nunc neque quis ex. Donec rutrum pulvinar velit non pretium.
 
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_fr.md">Français</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nl.md">Nederlands</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_ga.md">Gaeilge</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nb.md">Norsk Bokmål</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_sv.md">Svenska</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_zh-cn">普通话</a></td>
 
+    <td>🌐</td>
+    <td>🌐</td>
+    <td>🌐</td>
+    <td>🇮🇪</td>
+    <td>🇳🇴</td>
+    <td>🇸🇪</td>
+    <td>🇨🇳</td>
+    
 ## Read this page in other languages
 <details>
       <summary>Español</summary>
