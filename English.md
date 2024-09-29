@@ -33,10 +33,10 @@ Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tr
 
 ## Read this page in other languages
 <details>
-      <summary>🇪🇦</summary>
+      <summary>Español</summary>
     </details>
     <details>
-      <summary>🇩🇰</summary>
+      <summary>🇩🇰 Dansk</summary>
 </details>
 
 <table>
