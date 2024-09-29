@@ -13,8 +13,14 @@
 <br>
 <br>
 
-| Español | Deutsch | Português Brasileiro | Français | Nederlands | Gaeilge |
-| --- | --- | --- | --- | --- | --- |
+<div align="center">
+    
+Español | Deutsch | Português Brasileiro
+| :---: | :---: | :---: |
+| <b>Français</b> | <b>Nederlands</b> | <b>Gaeilge</b> |
+
+</div>
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut justo in lacus semper elementum. Aenean sagittis, arcu ac vulputate rutrum, risus justo eleifend justo, id lobortis dui lectus nec quam. In iaculis urna ac lacus vehicula elementum. Duis egestas a urna eu feugiat. Pellentesque dignissim tellus vel convallis blandit. Phasellus convallis orci nec orci condimentum, a condimentum arcu mollis. Nulla tortor tortor, tempus quis ultricies vulputate, sodales sit amet ligula. Nullam ut sollicitudin augue. Ut tincidunt pretium elit, ac imperdiet eros posuere et. Suspendisse potenti. Vivamus et urna lacinia, venenatis enim hendrerit, consectetur ipsum. Pellentesque iaculis vitae libero sit amet pulvinar. Vivamus neque mi, laoreet a lectus nec, dapibus aliquam dui. Etiam sed eleifend metus, a pretium erat.
 
