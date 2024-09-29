@@ -1,25 +1,19 @@
-<b><p align="center">Read in other languages:</p></b> 
-<i><p ></i>
-<table>
-    <tr>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md">🌐 Español</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md">🌐 Deutsch</a></td>
-    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md">🇧🇷 Português Brasileiro</a></td>
-    </tr>
 
-</table>
-</p>
-<br>
-<br>
-<br>
-
-<div align="center">
+<details>
+    <summary>Change language</summary>
+    <br>
+    <div align="left">
     
-Español | Deutsch | Português Brasileiro
-| :---: | :---: | :---: |
-| <b>Français</b> | <b>Nederlands</b> | <b>Gaeilge</b> |
-
+🌐 [Español](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md) | 🌐 [Deutsch](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md)
+| :---: | :---: |
+| <b>🌐 [Français](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_fr.md)</b> | <b>🇨🇳 [Nederlands](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nl.md)</b> |
+| <b>🇧🇷 [Português Brasileiro](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md)</b> | <b>🇮🇪 [Gaeilge](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_ga.md)</b> |
+| <b>🇸🇪 [Svenska](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_sv.md)</b> | <b>🇳🇴 [Norsk Bokmål](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nb-NO.md)</b> |
+| 🇨🇳 [普通话](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_zh-CN) | ![Frame 1(11)](https://github.com/user-attachments/assets/f9baa960-28ca-4d1f-ab8d-b621ba8eb7d1) [toki pona](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_tok.md) |
+<br>
 </div>
+</details>
+
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut justo in lacus semper elementum. Aenean sagittis, arcu ac vulputate rutrum, risus justo eleifend justo, id lobortis dui lectus nec quam. In iaculis urna ac lacus vehicula elementum. Duis egestas a urna eu feugiat. Pellentesque dignissim tellus vel convallis blandit. Phasellus convallis orci nec orci condimentum, a condimentum arcu mollis. Nulla tortor tortor, tempus quis ultricies vulputate, sodales sit amet ligula. Nullam ut sollicitudin augue. Ut tincidunt pretium elit, ac imperdiet eros posuere et. Suspendisse potenti. Vivamus et urna lacinia, venenatis enim hendrerit, consectetur ipsum. Pellentesque iaculis vitae libero sit amet pulvinar. Vivamus neque mi, laoreet a lectus nec, dapibus aliquam dui. Etiam sed eleifend metus, a pretium erat.
@@ -46,6 +40,22 @@ Mauris vitae placerat elit. Maecenas feugiat urna ut leo gravida cursus. Duis tr
     <td>🇳🇴</td>
     <td>🇸🇪</td>
     <td>🇨🇳</td>
+
+<b><p align="center">Read in other languages:</p></b> 
+<i><p ></i>
+<table>
+    <tr>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md">🌐 Español</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md">🌐 Deutsch</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md">🇧🇷 Português Brasileiro</a></td>
+    </tr>
+
+</table>
+</p>
+<br>
+<br>
+<br>
+
     
 ## Read this page in other languages
 <details>
