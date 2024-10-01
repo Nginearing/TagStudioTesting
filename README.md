@@ -6,7 +6,6 @@
     <div align="left">
         <table align="left">
             <tr>
-                <td>🌎 <a href="/#:Rr9ab:">English</a></td>
                 <td>🇭🇺 <a href="/#:Rr9ab:">magyar</a></td>
                 <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
             </tr>
