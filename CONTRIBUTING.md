@@ -197,7 +197,7 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 - Use the standard github markdown notices, as they are already readily understood, please do not create a custom warning notice.
 - For the language selector, if there is only one main country that speaks the language that you're translating, then choose that countries flag, otheriwse use the globe emoji (🌎)
 - For any images you will have to change the img src path in order for it to display, as the translated READMEs are not in the same place as the original README.
-- Translate "Change Language" for the language selector but don't translate any language names, you can also translate "Add language" if applicable.
+- Translate "Change Language" for the language selector but don't translate any language names, you can also translate "Add language".
 - For the hyperlink which has the text "Feel free to help!" Please translate instead as "We would appreciate your help if you can communicate in English" or something along those lines.
 - For the section in the README about launching/building from source ([seen here](https://github.com/Nginearing/TagStudioTesting?tab=readme-ov-file#launchingbuilding-from-source))
   please translate the dev environment creation section in the contributing.md that it mentions and put it in that section in the README.
