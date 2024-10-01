@@ -190,7 +190,9 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 <br>
 ```
 
-- Insert the language selector markdown code seen above into the top of the original README (but beneath the h1 header), then duplicate the full ```<td>`` tag for English, and then change the globe emoji inside the ```<td>``` tag to be the flag of the main country that speaks it, if there is only one, otherwise keep the globe emoji. 
+- Insert the language selector markdown code seen above into the top of the original README (but beneath the h1 header), then duplicate the full ```<td>`` tag for English, and then change the globe emoji inside the ```<td>``` tag to be the flag of the main country that speaks it, if there is only one, otherwise keep the globe emoji.
+- Change the href property to be the url of your translated README
+- Remember to keep the Add language ```<td>``` tag!
 - If there is an existing weblate translation in the language you are translating for, try to use the existing translations of vocab/terms where possible.
 - Use the standard github markdown notices, as they are already readily understood, please do not create a custom warning notice.
 - For the language selector, if there is only one main country that speaks the language that you're translating, then choose that countries flag, otheriwse use the globe emoji (🌎)
