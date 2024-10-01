@@ -146,7 +146,7 @@ Most of the style guidelines can be checked, fixed, and enforced via Ruff. Older
 #### Runtime
 
 - Code must function on supported versions of Windows, macOS, and Linux:
-  - Windows: 10, 11
+  - Windows: 10, 11 
   - macOS: 12.0+
   - Linux: TBD
 - Avoid use of unnecessary logging statements in final submitted code.
@@ -171,4 +171,34 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 
 ## Translation Guidelines
 
-_TBA_
+### README Translations
+
+```
+<details>
+    <summary>🌐 Change language</summary>
+    <br>
+    <div align="left">
+        <table align="left">
+            <tr>
+                <td>🌎 <a href="/#:Rr9ab:">English</a></td>
+                <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
+            </tr>
+        </table>
+    </div>
+</details>
+<br>
+<br>
+```
+
+- Insert the language selector markdown code seen above into the top of the original README (but beneath the h1 header), then duplicate the full ```<td>`` tag for English, and then change the globe emoji inside the ```<td>``` tag to be the flag of the main country that speaks it, if there is only one, otherwise keep the globe emoji. 
+- If there is an existing weblate translation in the language you are translating for, try to use the existing translations of vocab/terms where possible.
+- Use the standard github markdown notices, as they are already readily understood, please do not create a custom warning notice.
+- For the language selector, if there is only one main country that speaks the language that you're translating, then choose that countries flag, otheriwse use the globe emoji (🌎)
+- For any images you will have to change the img src path in order for it to display, as the translated READMEs are not in the same place as the original README.
+- Translate "Change Language" for the language selector but don't translate any language names, you can also translate "Add language" if applicable.
+- For the hyperlink which has the text "Feel free to help!" Please translate instead as "We would appreciate your help if you can communicate in English" or something along those lines.
+- For the section in the README about launching/building from source ([seen here](https://github.com/Nginearing/TagStudioTesting?tab=readme-ov-file#launchingbuilding-from-source))
+  please translate the dev environment creation section in the contributing.md that it mentions and put it in that section in the README.
+- In the contributing section, communicate the point across that Pull Requests and Issues are limited to only English-speakers or those confident enough in writing/communicating in English at this time.
+- Copy and paste the language selector markdown code (in full) into the top of your translated README (but beneath the h1 header)
+- And you are done, submit a pull request to the test fork for translating READMEs, after the README gets translated into atleast 2 different languages, I will create a pull request to the official TagStudio repo (main branch)
