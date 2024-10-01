@@ -2,16 +2,17 @@
 <details>
     <summary>Change language</summary>
     <br>
-    <div align="left">
-    
-🌐 [Español](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_es.md) | 🌐 [Deutsch](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_de.md)
-| :---: | :---: |
-| <b>🌐 [Français](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_fr.md)</b> | <b>🇨🇳 [Nederlands](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nl.md)</b> |
-| <b>🇧🇷 [Português Brasileiro](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_pt-br.md)</b> | <b>🇮🇪 [Gaeilge](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_ga.md)</b> |
-| <b>🇸🇪 [Svenska](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_sv.md)</b> | <b>🇳🇴 [Norsk Bokmål](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_nb-NO.md)</b> |
-| 🇨🇳 [普通话](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_zh-CN) | ![Frame 1(11)](https://github.com/user-attachments/assets/f9baa960-28ca-4d1f-ab8d-b621ba8eb7d1) [toki pona](https://github.com/Nginearing/TagStudioTesting/blob/main/README_translations/README_tok.md) |
+<div align="left">
+
+<table align="left">
+    <tr>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/tagstudio/resources/translations/README_es.md" title="Spanish">🌐 Español</a></td>
+    <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
+    </tr>
+</table>
 </div>
 </details>
+<br>
 <br>
 
 
