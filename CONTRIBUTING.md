@@ -202,3 +202,4 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 - In the contributing section, communicate the point across that Pull Requests and Issues are limited to only English-speakers or those confident enough in writing/communicating in English at this time.
 - Copy and paste the language selector markdown code (in full) into the top of your translated README (but beneath the h1 header)
 - And you are done, submit a pull request to the test fork for translating READMEs, after the README gets translated into atleast 2 different languages, I will create a pull request to the official TagStudio repo (main branch)
+(Im personally translating Spanish, so just one other person has to translate it into another language)
