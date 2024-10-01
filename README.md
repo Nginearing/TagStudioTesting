@@ -1,5 +1,18 @@
 # TagStudio: A User-Focused Document Management System
-
+<details>
+    <summary>Change language</summary>
+    <br>
+    <div align="left">
+        <table align="left">
+            <tr>
+                <td>🌐 <a href="https://github.com/Nginearing/TagStudioTesting/blob/main/tagstudio/resources/translations/README_es.md" title="Spanish">Español</a></td>
+                <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
+            </tr>
+        </table>
+    </div>
+</details>
+<br>
+<br>
 <p align="center">
   <img width="60%" src="docs/assets/github_header.png">
 </p>
