@@ -73,12 +73,12 @@ A TagStudio egy fénykép- és fájlrendszerező alkalmazás, ami a felhasznál�
   - cím, szerző, előadó (egysoros szövegmezők);
   - leírás, jegyzetek (többsoros szövegmezők);
   - címkék, metacímkék, tartalomcímkék (címkemezők).
-- Sokoldalú címkék létrehozása, amelyek tartalmazhatnak egy elnevezést, áljeleket és „alcímkéket” – ezek olyan címkék, amelyek a szülőcímkéiktől vesznek át értékeket.
+- Sokoldalú címkék létrehozása, amelyek tartalmazhatnak egy elnevezést, áljeleket és „alcímkéket” – ezek olyan címkék, amelyektől a szülőcímkéik vesznek át értékeket.
 - Tételek közötti keresés címkék, ~~metaadatok~~ (a későbbiekben) vagy fájlnevek/-típusok (`filename: <keresési kifejezés>`) alapján.
 - Különleges keresési esetek: `untagged`/`no tags` (címke nélküli) és `empty`/`no fields` (mező nélküli).
 
 > [!NOTE]
-> További információért ld.: [GY.I.K](#gy.i.k.), [Dokumentáció](/docs/index.md).
+> További információért ld.: [GY.I.K.](#gy.i.k.), [Dokumentáció](/docs/index.md).
 
 ## Közreműködés
 
@@ -87,9 +87,6 @@ Ha szeretne közreműködni a TagStudio fejlesztésében és tud velünk angolul
 A projekt fordítását a [Weblate](https://hosted.weblate.org/projects/tagstudio/)-en végezzük.
 
 ### Fejlesztői környezet felállítása
-
-<details>
-<summary>Részletek</summary>
 
 #### Követelmények
 
@@ -141,7 +138,111 @@ _További információt egy virtuális környezet felállításáról [itt olvas
 - **Bármilyen környezet** (Parancsfájlok nélkül)
 
   - Ezen kívül a virtuális környezetből egyszerűen futtathatja a `tagstudio\tag_studio.py` Python-fájlt is. Ha a gyökérmappában van, használja a `python3 tagstudio/tag_studio.py` parancsot.
-</details> 
 
 ## Telepítés
 
+A TagStudio letöltéséhez látogassa meg a GitHub-adattár [Releases](https://github.com/TagStudioDev/TagStudio/releases) (Kiadások) oldalát és töltse le a rendszeréhez megfelelő verziót az „Assets” listáról. A TagStudio jelenleg **Windows**-, **macOS**- _(Apple Silicon és Intel)_ és **Linux**-rendszerekre érhető el. Ha egy rögzítetlen futtatható fájlt szeretne, a Windows- és a Linux-verzió hordozható változatban is elérhető.
+
+Ha szeretne videófájlokat lejátszani és a könyvtárában a hozzájuk tartozó indexképeket megjeleníteni, akkor az [FFmpegre](https://ffmpeg.org/download.html) is szüksége lesz.
+
+> [!IMPORTANT]
+> # TODO: Check the official TL for these messages
+
+#### Indítási argumentumok
+
+A TagStudio jelenleg az alábbi indítási argumentumokat támogatja:
+
+> `--open <elérési út>` / `-o <elérési út>`
+> A megadott elérési úton található TagStudio-könyvtár megnyitása indításkor.
+
+> `--config-file <elérési út>` / `-c <elérési út>`
+> A megadott elérési úton található TagStudio konfigurációs fájl betöltése indításkor.
+
+## Használat
+
+### Könyvtár létrehozása/megnyitása
+
+A TagStudio megnyitása után hozzon létre egy új könyvtárat vagy nyisson meg egy létezőt a menüsorból, a Fájl -> „Könyvtár megnyitása/létrehozása” paranccsal. Ha még nem létezik, a TagStudio automatikusan létre fog hozni egy könyvtárat a kiválasztott mappa alapján. Egy könyvtár létrehozása során a TagStudio automatikusan átvizsgálja az almappákat és hozzáadja a bennük található fájlokat a könyvtárhoz (ezen folyamat során a fájlok nem lesznek áthelyezve!).
+
+### A könyvtár frissítése
+
+Ha a létező könyvtárhoz tartozó mappákban új fájlok keletkeztek vagy fájlmódosítások lettek végrehajtva, akkor kézileg frissítenie kell a könyvtárat a Fájl -> „Mappák frissítése” paranccsal.
+
+> [!NOTE]
+> A jövőben a könyvtárfrissítés automatikusan a háttérben és az alkalmazás indulásakor lesz végrehajtva.
+
+### Metaadatok hozzáadása fájlokhoz
+
+Ha metaadatokat kíván hozzáadni egy fájlhoz, kattintson az „Új mező” gombra a jobb oldalon található betekintő ablaktáblán, a fájl előnézete alatt. Ezután, a legördülő menüből válassza ki a tételhez hozzáadandó metaadatmező típusát.
+
+### Metaadatmezők szerkesztése
+
+#### Egy- és többsoros szövegmezők
+
+Mozgassa az egerét a mező elé, majd kattintson rá a ceruza ikonra. A felugró párbeszédablakban módosíthatja a mező tartalmát.
+
+#### Címkemező
+
+Kattintson rá a „+” gombra a címkelista végén, majd keressen rá a hozzáadandó címkékre a felugró párbeszédablakban. Egy címke hozzáadásához kattintson rá a mellette található „+” gombra. Emellett lehetősége van egy keresési kifejezés begépelését követően megnyomni az Enter/Return billentyűt az első találat hozzáadásához. Ha ezután ismét megnyomja az Enter/Return billentyűt, akkor a párbeszédablak bezárul.
+
+> [!WARNING]
+> A billentyűzetes navigáció jelenleg még _erősen_ hibás, de a jövőben finomítani fogunk rajta.
+
+### Címkék létrehozása
+
+Egy új címke létrehozásához kattintson a menüsorból a Szerkesztés -> „Új címke” gombra. A megjelenő párbeszédablakban megadhatja a címke nevét, rövidítését, áljeleit (sortöréssel elválasztva), alcímkéit és színét.
+
+- A címke **rövidítése** olyan helyzetekben használatos, amikor szűkös a képernyőn a hely (pl.: egy másik címke alcímkéjeként).
+- A címke **áljelei** olyan egyéb megnevezései a címkének, amelyek könnyíthetik a későbbi rákeresést.
+- A címke **alcímkéi** olyan címkék, amelyeknek ez a címke a gyermeke. Más szóval: Az alcímkék a címke szülői. Például, ha egy sorozat szerplőjéről szeretne létrehozni egy címkét, akkor a sorozat címe a szereplő alcímkéje lenne. Ez az alkalmazás legtöbb részében így jelenne meg: „Szereplőnév (Sorozatcím)”. Az alcímkék legelső eleme lesz zárójelek között kiemelve a címke után.
+- A **Szín** legördülő menüvel kiválaszthat egy színt a címkének (nem kötelező).
+
+### Címkék szerkesztése
+
+Ha szerkeszteni kíván egy címkét, kattintson rá az egér jobb gombjával a betekintő ablaktáblán belül a címkemezőben és válassza ki a „Címke szerkesztése” parancsot.
+
+### Átnevezett és áthelyezett fájlok újra összekapcsolása
+
+A könyvtár bizonyos fájljainak átnevezése, áthelyezése vagy törlése szinte elkerülhetetlen. Ha emiatt megszakad a kapcsolat egy könyvtártétel és a hozzá tartozó fájl között, akkor az egy áthúzott piros címkeikonnal lesz megjelenítve _(ugyanezt az ikont használjuk a sérült indexképű fájlok megjelenítéséhez is)_. A tételek ismételt összekapcsolásához vagy törléséhez nyissa meg az Eszközök -> „Kapcsolat nélküli elemek kezelése” menüt. Ezt követően kattintson a Frissítés gombra a kapcsolat nélküli elemek kereséséhez. Ha a vizsgálat befejeződött, lehetősége van megkeresni és újra összekapcsolni a kapcsolat nélküli elemeket vagy törölni őket, ha az eredeti fájlok már nem léteznek és nem kívánja a hozzájuk tartozó metaadatokat megtartani a könyvtárban.
+
+> [!WARNING]
+> Az átnevezett fájlok újra összkapcsolása jelenleg nem lehetséges – a rendszer csak az áthelyezett és a törölt fájlokat tudja kezelni. Ezt mihamarabb igyekszünk orvosolni.
+
+> [!WARNING]
+> Ha a folyamat több találatot is fellel egy áthelyezett fájlhoz (tehát több olyan fájlt, amelynek a fájlneve egyezik az eredetivel), akkor a TagStudio jelenleg figyelmen kívül hagyja az egyezéseket. A jövőben szeretnénk létrehozni egy felületet a kézi kiválogatásra és okosabbá tenni az automatikus összekapcsolást.
+
+### A könyvtár mentése
+
+A program kilépéskor automatikusan menti a könyvtárak tartalmát. Ha szeretne kézileg menteni, ezt a menüsorból, a Fájl -> „Könyvtár mentése” paranccsal megteheti. Ha szeretne biztonsági mentést készíteni a könyvtárról, válassza ki a Fájl -> „Könyvtár biztonsági mentése” parancsot.
+
+### Részben implementált funkciók
+
+#### Egyező fájlok egyesítése
+
+Nyisson meg egy, a [dupeGuru](https://github.com/arsenetar/dupeguru/) által generált .dupeguru-fájlt a metaadatok szétmásolásához az összes egyező fájl között. Ezután térjen vissza a dupeGuruba és törölje a felesleges fájlokat. Ha befejezte a törlést, használja a TagStudio „Kapcsolat nélküli elemek javítása” funkcióját az újonnan törölt fájlokhoz kapcsolódó könyvtártételek eltávolításához.
+
+> [!CAUTION]
+> Ez egy működő, de igencsak komplikált folyamat, amit a jövőben egyszerűsíteni lehetne.
+
+#### Kollázskészítés
+
+Létrehozhat egy kollázst a fényképeiből és videójaiból.
+
+> [!CAUTION]
+> A kollázs mérete és jellemzői jelenleg nem szabhatóak személyre és nem létezik felület a folyamat haladásának jelzésére.
+
+#### Makrók
+
+Automatikusan, feltételek alapján alkalmazhat címkéket és hozhat létre egyéb metaadatokat. Létrehozhat olyan makrókat, amelyek új fájlok könyvtárbafoglalása során futnak le. Létező mappastruktúra alapján alkalmazhat címkéket.
+
+> [!CAUTION]
+> A makrók jellemzői jelenleg nem szabhatóak személyre és a felhasználónak nincs módja kapcsolatba lépni ezzel a (még befejezetlen) rendszerrel.
+
+#### Gallery-dl-oldalkocsifájl importálása
+
+Importálhat a [gallery-dl](https://github.com/mikf/gallery-dl) által létrehozott oldalkocsifájlokat.
+
+> [!CAUTION]
+> Ez a funkció jelenleg semmilyen hivatalos módon sem támogatott vagy dokumentált. Valószínűleg egy későbbi, általánosított oldalkocsifájl-importáló rendszerbe lesz majd beleolvasztva.
+
+## GY.I.K.
