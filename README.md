@@ -1,5 +1,4 @@
 # TagStudio: A User-Focused Document Management System
-
 <details>
     <summary>🌐 Change language</summary>
     <br>
@@ -7,14 +6,13 @@
         <table align="left">
             <tr>
                 <td>🇭🇺 <a href="/tagstudio/resources/translations/README_hu.md">magyar</a></td>
-                <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
+                <td><a href="/CONTRIBUTING.md#readme-translations.md">Add Language</a></td>
             </tr>
         </table>
     </div>
 </details>
 <br>
 <br>
-
 <p align="center">
   <img width="60%" src="docs/assets/github_header.png">
 </p>
