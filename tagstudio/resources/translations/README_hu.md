@@ -146,7 +146,10 @@ A TagStudio letöltéséhez látogassa meg a GitHub-adattár [Releases](https://
 Ha szeretne videófájlokat lejátszani és a könyvtárában a hozzájuk tartozó indexképeket megjeleníteni, akkor az [FFmpegre](https://ffmpeg.org/download.html) is szüksége lesz.
 
 > [!IMPORTANT]
-> # TODO: Check the official TL for these messages
+> Ha macOS-en próbálja megnyitni a programot, lehetséges, hogy az alábbi hibával fog találkozni:
+> > A „TagStudio” nem nyitható meg, mert az Apple nem tudja ellenőrizni, hogy rosszindulatú szoftverek vannak-e benne.
+> 
+> Ebben az esetben az alkalmazás futtatásához meg kell nyitnia a Rendszerbeállításokat és az „Adatvédelem és biztonság” menüben, a lista legalján a TagStudio mellett meg kell nyomnia a „Megnyitás mindenképp” gombot. A rendszer ezután meg fogja jegyezni a felülbírálást.
 
 #### Indítási argumentumok
 
