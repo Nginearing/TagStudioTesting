@@ -5,8 +5,8 @@
     <div align="left">
         <table align="left">
             <tr>
-                <td>🌎 <a href="/tagstudio/resources/translations/README_es.md#:R156d9lab:" title="Spanish">Español</a></td>
-                <td><a href="/CONTRIBUTING.md">Add Language</a></td>
+                <td>🇭🇺 <a href="/tagstudio/resources/translations/README_hu.md">magyar</a></td>
+                <td><a href="/CONTRIBUTING.md#readme-translations.md">Add Language</a></td>
             </tr>
         </table>
     </div>
