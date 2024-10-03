@@ -49,7 +49,7 @@ A TagStudio egy fénykép- és fájlrendszerező alkalmazás, ami a felhasznál�
 - [Közreműködés](#közreműködés)
   - [Fejlesztői környezet felállítása](#fejlesztői-környezet-felállítása)
 - [Használat](#használat)
-- [GY.I.K.](#GY.I.K.)
+- [GY.I.K.](#gyik)
 
 ## Célok
 
@@ -246,3 +246,77 @@ Importálhat a [gallery-dl](https://github.com/mikf/gallery-dl) által létrehoz
 > Ez a funkció jelenleg semmilyen hivatalos módon sem támogatott vagy dokumentált. Valószínűleg egy későbbi, általánosított oldalkocsifájl-importáló rendszerbe lesz majd beleolvasztva.
 
 ## GY.I.K.
+
+### Jelenleg milyen állapotban van a projekt?
+
+A dokumentum írásakor (alfa 9.3.0) a projekt használható állapotban van, de további tesztelésre és minőségi javításokra vár.
+
+### A jövőben milyen funkciókkal fog bővülni a program?
+
+> [!IMPORTANT]
+> A legfrissebb listához ld. a [Tervezett funkciók](/docs/updates/planned_features.md) dokumentációját. Az alábbi listák idővel oda lesznek áthelyezve és a nagyobb funckiók saját oldalakat is fognak kapni.
+
+A tervezett funkciók két listára vannak bontva: elsődleges és jövőbeli. Az elsődleges funkciók eredetileg az első nyilvános kiadáshoz voltak tervezve, de még mindig hiányoznak az alfa 9.x.x-es verziókból.
+
+#### Elsődleges funkciók
+
+- Javított keresési élmény
+  - Találatok rendezése
+  - Feltételes keresés
+  - Egyidejű szöveges- és címkekeresés
+  - Metaadatok keresése
+- Összesített címkekezelő ablak
+- Egyszerűbb lehetőségek a csoportos címkézésre
+  - Címkekereső panel
+  - „Legutóbb használt címkék” panel
+  - „Leggyakrabban használt címkék” panel
+  - „Kitűzőtt címkék” panel
+- Javított (stabilabb, jobb teljesítményű) rácsnézet
+- Javított újraösszekapcsolási folyamat
+- Gyorsítótárazott indexképek
+- Címkeszerű csoportok
+- Átméretezhető rácsnézet
+- Egyedi metaadatmezők
+- Többmappás támogatás
+- SQLite (vagy hasonló) mentések
+- EXIF- és XMP-mezők kezelése
+- Javított kezelőfelület és felhasználói élmény
+- Javított alkalmazásprogramozási felület a tételek, címkék, mezők, stb. hozzáféréséhez
+- Egy kidolgozott tesztelési folyamat
+- A kódfeltisztítás és modularizálás folytatása
+- Exportálható és importálható könyvtáradatok és „címkecsomagok”
+
+#### Jövőbeli funkciók
+
+- Többfelhasználós/többklienses támogatás
+- Fájlok kihúzása a programablakból
+- Összesített fájltípus-fehérlista
+- Egy kész „makrórendszer” az automatikus feltételes címkézéshez
+- Különböző könyvtárnézetek
+- Dátum- és időmezők
+- Elemkapcsolatok és -hivatkozások
+- Hullámformák a hangfájlok indexképén
+- 3D-s modellfájlok előnézete
+- Egyéb fájlok előnézete
+- Nem kötelező globális címkék és -beállítások több könyvtáron keresztül
+- Könyvtárak importálása és exportálása más programokba/programokból
+- A program átültetése egy gyorsabb és modernebb előtérbe (Rust? Tauri? stb.)
+- Bővítmények
+- Képkeresés optikai karakterfelismeréssel
+- Automatikus, helyileg futtatott, gépitanulás-alapú címkézési javaslatok képekhez
+- Okostelefonos verzió (a _MESSZI_ jövőben)
+
+#### Melyek azok a funkciók, amelyek valószínűleg nem tervezettek és nem is lesznek közreműködés esetén a programba olvasztva?
+
+- Natív felhőintegráció
+  - Már most is számos olyan szolgáltatás létezik (legyen az natív vagy sem), amelyekkel lehetséges egy felhőalapú tárhelyet helyi virtuális lemezként felkapcsolni. Egy ilyen lemezt ugyanúgy meg lehet nyitni a TagStudióban, mintha helyi tárhely lenne.
+- Natív ChatGPT- vagy más nem-helyi nagy nyelvi modell integrációja
+  - Ez az igényektől függően több különböző dolgot is jelenthet. Lehet a keresési funkció kicserélése egy nyelvimodell-alapúra. Lehet a nyelvimodell-alapú képfelismerés. Személy szerint, én nem szeretném mások TagStudio-könyvtárait egy nem-helyi nagy nyelvi modellel összekapcsolni és/vagy a program felületét egy „csevegőrobottá” alakítani (ld. [Célok](#célok)). Mindezek mellett tetszik az a gondolat, hogy _nem kötelező módon_ egy **helyileg** futtatott modellel kiegészítsem a keresési és címkézési lehetőségeket (legfőképpen az arcfelismerés terén).
+  
+### Hogy lehet, hogy a program már a 9-es verzióban van?
+
+Már évek óta dolgozom ezen a projekten zárt ajtók mögött, és az alatt az idő alatt a program már számos verzión és újraíráson is átment. Ez a „főverzió” csak egy szám – ha nagyon akartam volna, közzétehettem volna 0-ás vagy 1.0-ás verzióként is, de inkább maradtam az eredeti számozásnál, hogy ne kelljen visszamenőleg átírni az összes dokumentációt és kódmegjegyzést. Ha minden a terv szerint halad, akkor a 10-es verzió már tartalmazni fogja az [előző](#a-jövőben-milyen-funkciókkal-fog-bővülni-a-program) szakaszban körvonalazott „elsődleges” funkciókat. Mindemellett a jelenlegi verziót elláttam egy alfa címkével és a számozás valószínűleg újra fog indulni, amikor elkészül a funkcióteljes béta verzió.
+
+### Várjunk csak – létezik egy parancssori felület is?
+
+Jelenleg **nem**. De a nem-túl-távoli múltban volt egy parancssoros verzió is, mielőtt elköteleztem volna magam a Qt mellett. A parancssoros felület (jelenleg működésképtelen) kódja bent maradt, ha valaki kíváncsi lenne rá. És igen – szinte az egész csak `print` parancsokból állt _(a Windows bizonyos baljós dolgai abban az időben nagyon nem festettek fényes jövőt az operációs rendszernek és csak szükségem volt egy egyszerű vezérlőprogramra a nemrég-újrabontott kódhoz…)_.
