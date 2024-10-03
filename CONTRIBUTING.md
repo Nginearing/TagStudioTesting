@@ -170,9 +170,28 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 - Use "[Title Case](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case)" for title capitalization
 
 ## Translation Guidelines
+A Guide on translating the interface via [Weblate](https://weblate.org/) will be released soon.
+>[!IMPORTANT]  
+>As of the 4th of October 2024, the translation project is currently locked, therefore contributing to translations of the user interface have been halted by the Weblate platform - it was automatically locked at around 1pm GMT on the 1st of October, it was automatically locked, due to ongoing merging issues, read more [here](https://github.com/TagStudioDev/TagStudio/issues/446#issuecomment-2389046660).
 
-### README Translations
-
+#### For Markdown Files (eg. README.md)
+>[!NOTE]
+> If you want to translate the README into another language, please read **ALL** of these sections!
+<details>
+  <summary>Creating translated README file</summary>
+<br>
+  
+  - Find the language code for the language you want to translate [here](https://github.com/WeblateOrg/language-data/blob/main/languages.csv).
+  - Name the markdown file "README_languagecode"
+  
+</details>
+<details>
+<summary>Implementing Language Selector into your file</summary>
+  
+  - Insert the markdown code for the language selector seen below into the top of your translated version of the markdown file (beneath h1 header)
+  
+  - Within the markdown code, translate "English", "Add Language" and "Change Language" into the language you're translating
+  
 ```
 <details>
     <summary>🌐 Change language</summary>
@@ -189,19 +208,37 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 <br>
 <br>
 ```
-
-- Insert the language selector markdown code seen above into the top of the original README (but beneath the h1 header), then duplicate the full ```<td>`` tag for English, and then change the globe emoji inside the ```<td>``` tag to be the flag of the main country that speaks it, if there is only one, otherwise keep the globe emoji.
-- Change the href property to be the url of your translated README
-- Remember to keep the Add language ```<td>``` tag!
-- If there is an existing weblate translation in the language you are translating for, try to use the existing translations of vocab/terms where possible.
-- Use the standard github markdown notices, as they are already readily understood, please do not create a custom warning notice.
-- For the language selector, if there is only one main country that speaks the language that you're translating, then choose that countries flag, otheriwse use the globe emoji (🌎)
-- For any images you will have to change the img src path in order for it to display, as the translated READMEs are not in the same place as the original README.
-- Translate "Change Language" for the language selector but don't translate any language names, you can also translate "Add language".
-- For the hyperlink which has the text "Feel free to help!" Please translate instead as "We would appreciate your help if you can communicate in English" or something along those lines.
-- For the section in the README about launching/building from source ([seen here](https://github.com/Nginearing/TagStudioTesting?tab=readme-ov-file#launchingbuilding-from-source))
-  please translate the dev environment creation section in the contributing.md that it mentions and put it in that section in the README.
-- In the contributing section, communicate the point across that Pull Requests and Issues are limited to only English-speakers or those confident enough in writing/communicating in English at this time.
-- Copy and paste the language selector markdown code (in full) into the top of your translated README (but beneath the h1 header)
-- And you are done, submit a pull request to the test fork for translating READMEs, after the README gets translated into atleast 2 different languages, I will create a pull request to the official TagStudio repo (main branch)
-(Im personally translating Spanish, so just one other person has to translate it into another language)
+  
+It should look like this:
+  <details>
+    <summary>🌐 Change language</summary>
+    <br>
+    <div align="left">
+        <table align="left">
+            <tr>
+                <td>🌎 <a href="/#:Rr9ab:">English</a></td>
+                <td><a href="https://github.com/Nginearing/TagStudioTesting/blob/main/CONTRIBUTING.md">Add Language</a></td>
+            </tr>
+        </table>
+    </div>
+</details>
+<br>
+<br>
+</details>
+<details>
+  <summary>
+    Ensuring accuracy
+  </summary>
+</details>
+<details>
+  <summary>
+    Formatting
+  </summary>
+</details>
+<details>
+  <summary>
+  Refining the message of the translations
+</details>
+<details>
+  
+</details>
