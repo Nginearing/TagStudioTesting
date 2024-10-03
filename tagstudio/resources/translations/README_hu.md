@@ -131,9 +131,10 @@ _További információt egy virtuális környezet felállításáról [itt olvas
   - Egyszerűen futtassa a `TagStudio.sh` fájlt. (Linuxon ne felejtse el futtathatóvá tenni a parancsfájlt!) Megjegyzés: Ha terminálon kívülről futtatja a programot, akkor a hibakeresési és összeomlási információkat tartalmazó terminálablak nem fog megjelenni. Ha szeretné látni ezeket az információkat, akkor futtassa a parancsfájlt terminálból, a `./TagStudio.sh` paranccsal.
   
   - **NixOS** (Nix Flake)
-    > [!WARNING]
-	> A NixOS-támogatás még kidolgozás alatt van.
-	- Hozzon létre és lépjen be egy munkakörnyezetbe a projektben található [Flake](https://nixos.wiki/wiki/Flakes) felhasználásával, a `nix develop` parancs futtatásával. Ezután a gyökérmappából futtassa a programot a `python3 tagstudio/tag_studio.py` paranccsal.
+    - Hozzon létre és lépjen be egy munkakörnyezetbe a projektben található [Flake](https://nixos.wiki/wiki/Flakes) felhasználásával, a `nix develop` parancs futtatásával. Ezután a gyökérmappából futtassa a programot a `python3 tagstudio/tag_studio.py` paranccsal.
+
+> [!WARNING]
+> A NixOS-támogatás még kidolgozás alatt van.
 	
 - **Bármilyen környezet** (Parancsfájlok nélkül)
 
