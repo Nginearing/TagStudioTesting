@@ -237,8 +237,6 @@ It should look like this:
 </details>
 <details>
   <summary>
-  Refining the message of the translations
-</details>
-<details>
-  
+  Refining the message
+  </summary>
 </details>
