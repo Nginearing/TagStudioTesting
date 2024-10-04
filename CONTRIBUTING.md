@@ -180,7 +180,7 @@ A Guide on translating the interface via [Weblate](https://weblate.org/) will be
 <details>
   <summary>Creating translated README file</summary>
 <br>
-  
+  - Fork this repo, then do the steps below within the fork
   - Find the language code for the language you want to translate [here](https://github.com/WeblateOrg/language-data/blob/main/languages.csv).
   - Name the markdown file "README_languagecode"
   
