@@ -179,10 +179,12 @@ A Guide on translating the interface via [Weblate](https://weblate.org/) will be
 > If you want to translate the README into another language, please read **ALL** of these sections!
 <details>
   <summary>Creating translated README file</summary>
-<br>
-  - Fork this repo, then do the steps below within the fork
+  
+  - Fork the main TagStudio repo (not this one), then do the steps below within the fork
+  
   - Find the language code for the language you want to translate [here](https://github.com/WeblateOrg/language-data/blob/main/languages.csv).
-  - Name the markdown file "README_languagecode"
+  
+  - Create a markdown file inside: /tagstudio/resources/translations/ and name it "README_languagecode"
   
 </details>
 <details>
