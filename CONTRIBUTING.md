@@ -172,7 +172,7 @@ Documentation contributions include anything inside of the `doc/` folder, as wel
 ## Translation Guidelines
 A Guide on translating the interface via [Weblate](https://weblate.org/) will be released in the future.
 >[!IMPORTANT]  
->As of the 4th of October 2024, the Weblate translation project (For the User Interface) is currently locked, therefore contributing to translations of the user interface have been halted by the Weblate platform - it was automatically locked at around 1pm GMT on the 1st of October, it was automatically locked, due to ongoing merging issues, read more [here](https://github.com/TagStudioDev/TagStudio/issues/446#issuecomment-2389046660).
+>As of the 12th of October 2024, the Weblate translation project (For the User Interface) is currently locked, therefore contributing to translations of the user interface have been halted by the Weblate platform - it was automatically locked at around 1pm GMT on the 1st of October, it was automatically locked, due to ongoing merging issues, read more [here](https://github.com/TagStudioDev/TagStudio/issues/446#issuecomment-2389046660).
 
 #### For Markdown Files (eg. README.md)
 >[!NOTE]
