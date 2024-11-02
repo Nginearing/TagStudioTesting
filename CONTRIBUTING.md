@@ -192,7 +192,7 @@ A Guide on translating the interface via [Weblate](https://weblate.org/) will be
   
   - Insert the markdown code for the language selector seen below into the top of your translated version of the markdown file (beneath h1 header)
   
-  - Within the markdown code, translate "English", "Add Language" and "Change Language" into the language you're translating
+  - Within the markdown code, translate "English", "Add Language" and "Change Language" into your chosen language.
   
 ```
 <details>
