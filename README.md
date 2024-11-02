@@ -6,7 +6,7 @@
         <table align="left">
             <tr>
                 <td>🇭🇺 <a href="/tagstudio/resources/translations/README_hu.md">magyar</a></td>
-                <td><a href="/CONTRIBUTING.md#readme-translations.md">Add Language</a></td>
+                <td><a href="/CONTRIBUTING.md#for-markdown-files-eg-readmemd">Add Language</a></td>
             </tr>
         </table>
     </div>
