@@ -191,7 +191,7 @@ class BuildTagPanel(PanelWidget):
     def set_tag(self, tag: Tag):
         logger.info("setting tag", tag=tag)
 
-        self.name_field.setText(tag.name)
+        self.name_field.setPlaceholderText(tag.name)
         self.shorthand_field.setText(tag.shorthand or "")
         # TODO: Implement aliases
         # self.aliases_field.setText("\n".join(tag.aliases))
@@ -208,8 +208,10 @@ class BuildTagPanel(PanelWidget):
         color = self.color_field.currentData() or TagColor.DEFAULT
 
         tag = self.tag
-
-        tag.name = self.name_field.text()
+        if self.name_field.text() == "":
+        	tag.name = self.tag.name
+        else:
+            tag.name = self.name_field.text()
         tag.shorthand = self.shorthand_field.text()
         tag.color = color
 
