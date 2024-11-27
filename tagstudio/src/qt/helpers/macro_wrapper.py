@@ -6,7 +6,7 @@ import logging
 import importlib
 import os
 
-macros_folder = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'widgets', 'macros'))
+macros_folder = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'modals', 'macros'))
 
 def LoadMacros(menu_bar, macros_menu):
     "Loads and adds macros to the Macro Menubar"
