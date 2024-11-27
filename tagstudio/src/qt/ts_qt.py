@@ -93,6 +93,7 @@ from src.qt.modals.fix_dupes import FixDupeFilesModal
 from src.qt.modals.folders_to_tags import FoldersToTagsModal
 from src.qt.modals.drop_import import DropImport
 from src.qt.modals.ffmpeg_checker import FfmpegChecker
+from src.qt.helpers.macro_wrapper import LoadMacros
 
 # this import has side-effect of import PySide resources
 import src.qt.resources_rc  # pylint: disable=unused-import
@@ -572,6 +573,12 @@ class QtDriver(QObject):
         folders_to_tags_action = QAction("Folders to Tags", menu_bar)
         folders_to_tags_action.triggered.connect(create_folders_tags_modal)
         macros_menu.addAction(folders_to_tags_action)
+
+        try: # Load Macros
+            logging.info("[MACROS] Loading macros...")
+            LoadMacros(menu_bar, macros_menu)
+        except:
+            logging.error("[MACROS] Failed to load macros")
 
         # Help Menu ============================================================
         self.repo_action = QAction("Visit GitHub Repository", menu_bar)
