@@ -20,7 +20,7 @@ def LoadMacros(menu_bar, macros_menu):
                 module = importlib.util.module_from_spec(spec)
                 spec.loader.exec_module(module) 
                 macro = QAction(module.ActionName, menu_bar)
-                macro.triggered.connect(module.Action)
+                macro.triggered.connect(module.MacroAction)
                 macros_menu.addAction(macro)
                 logging.info("[MACROS] "+ module.ActionName + ": Successfully loaded")
             except:
