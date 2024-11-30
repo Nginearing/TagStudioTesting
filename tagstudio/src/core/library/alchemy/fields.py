@@ -78,6 +78,8 @@ class TextField(BaseField):
         elif isinstance(value, (TagBoxField, DatetimeField)):
             return False
         raise NotImplementedError
+        
+# Add class for RatingField
 
 
 class TagBoxField(BaseField):
@@ -98,6 +100,19 @@ class TagBoxField(BaseField):
 
     def __eq__(self, value) -> bool:
         if isinstance(value, TagBoxField):
+            return self.__key() == value.__key()
+        raise NotImplementedError
+
+class RatingBoxField(BaseField):
+    __tablename__ = "rating_box_fields"
+
+    value: Mapped[int | None]
+
+    def __key(self):
+        return (self.type, self.value)
+
+    def __eq__(self, value) -> bool:
+        if isinstance(value, RatingBoxField):
             return self.__key() == value.__key()
         raise NotImplementedError
 
@@ -158,3 +173,4 @@ class _FieldID(Enum):
     GUEST_ARTIST = DefaultField(id=28, name="Guest Artist", type=FieldTypeEnum.TEXT_LINE)
     COMPOSER = DefaultField(id=29, name="Composer", type=FieldTypeEnum.TEXT_LINE)
     COMMENTS = DefaultField(id=30, name="Comments", type=FieldTypeEnum.TEXT_LINE)
+    RATING = DefaultField(id=31, name="Rating", type=FieldTypeEnum.RATING_BOX)
